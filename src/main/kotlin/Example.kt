@@ -8,7 +8,7 @@ fun main(args:Array<String>){
     val Age = 20
     val Branch = "CSE"
     val percentage = 75.5
-    println("Name : $Name  Age: $Age Branch: $Branch percentage: $percentage")
+    println(" Name : $Name \n Age: $Age \n Branch: $Branch \n percentage: $percentage")
 }
 
 
