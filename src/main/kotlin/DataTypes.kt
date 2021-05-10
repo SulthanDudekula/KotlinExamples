@@ -7,18 +7,19 @@ This is Known as "Type Interface"
 fun main(args:Array<String>)
 {
     //Declaring a variable by giving Datatype Explicitly
-    val i:Int=10
-    val s:String="hello"
-    val d:Double=17.1
+    val i:Int=10                      //Integers
+    val s:String="hello"              //strings
+    val d:Double=17.1                 //Double
     //while Declaring a Float variable we need to Specify the F at the end of the value as Shown below
-    val f:Float=17.1F
-    val c:Char='c'
-    println("$i")
-    println("$s")
-    println("$d")
-    println("$f")
-    println("$c")
-
+    val f:Float=17.1F                 //Float
+    val c:Char='c'                    //Char
+    val b:Boolean = true              //Boolean
+    println("Print the integer value i:$i")
+    println("Print the string value s:$s")
+    println("Print the Double value d:$d")
+    println("Print the Float value f:$f")
+    println("Print the Char value c:$c")
+    println("Print the boolean value b:$b")
     //Declaring a variable by with out giving Datatype Explicitly
     //if you don't specify the F at the end of the Decimal value Kotlin will Consider as Double
     //In KOtlin the default data type for Decimal Values(Floatpoints) is Double.
