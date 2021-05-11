@@ -1,11 +1,10 @@
 /**
  * Finding the Minimum and Maximum Value Of the Number types
-In Numbers we haveTwo Types Int,float
-In Int again we have -->Byte,Short,Int,Long.......
-In Float again we have-->Double,Float........
-
+ * In Numbers we haveTwo Types Int,float
+ * In Int again we have -->Byte,Short,Int,Long.......
+ * In Float again we have-->Double,Float........
  */
-fun main(args:Array<String>){
+fun main(){
     //Minimum and Maximum Size of Byte
     val b1:Byte = Byte.MIN_VALUE
     val b2:Byte = Byte.MAX_VALUE
