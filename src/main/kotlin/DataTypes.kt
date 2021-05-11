@@ -1,6 +1,6 @@
 /** DataTypes
  * In Kotlin No need to Specify the Data Type Explicity while declaring the variable
- * Kotlin figured out the types for us, based onhow we used them.
+ * Kotlin figured out the types for us, based on how we used them.
  * This is Known as "Type Interface"
  */
 fun main(args: Array<String>) {
